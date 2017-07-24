@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FBF302A3-03E1-C2CC-930D-AD74D2A3E005}</ProjectGuid>
+    <ProjectGuid>{B2A165B2-04C6-8CFE-C982-7A03821EACB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,99 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\ShadowRendering.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Art\Effects\Stars\StarRendering.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\DevCommentary\DeveloperCommentaryOrb.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\DevCommentary\DeveloperCommentaryPlayer.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Effects\EonSpinner.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Effects\SyncFacing.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Effects\SyncOrbit.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Effects\WindSystem\DynamicWindColorEffector.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Effects\WindSystem\DynamicWindColorResponder.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Effects\WindSystem\GlobalDynamicWindColorSimple.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Lighting\SimpleCustomFog.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Messages\MessageSign.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Utility\CombineMeshFilters.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Audio\AudioFader.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\AssetTree.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\ReorientOnLoad.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\AppButtonClickTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\AppButtonDownTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\AppButtonUpTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\BaseActionTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadClickDownTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadClickTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadClickUpTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadMiddleClickUpTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadSideClickDownTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadSideTouchDownTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadTouchDownTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadTouchUpTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Utility\Triggers\TouchpadTouchingTrigger.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Demo\Scripts\CoinGenerator.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Demo\Scripts\CollectibleCoin.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Demo\Scripts\FoxPositionedCharacter.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Demo\Scripts\ScoreTracker.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Scripts\BasePositionedCharacter.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Scripts\CharacterPositionPointer.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Scripts\CharacterPositionPointerImpl.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Scripts\ChaseCam.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ChaseCam\Scripts\GroundPositionedCharacter.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ClickMenu\Demo\Scripts\Painter.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ClickMenu\Demo\Scripts\PainterStroke.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ClickMenu\Scripts\ClickMenuIcon.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ClickMenu\Scripts\ClickMenuItem.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ClickMenu\Scripts\ClickMenuRoot.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ClickMenu\Scripts\ClickMenuTree.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\ClickMenu\Scripts\MenuSounds.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\Balloon.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\BalloonSpawner.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\ColorUtil.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\ExplodedQuad.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\Launcher.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\PaperPlaneSpawner.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\PopSound.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\RigidPaperAirplane.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\Ring.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Scripts\Sign.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\SwipeMenu\Scripts\SwipeMenu.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Demo\Art\DynamicWindColor\Scripts\TeleportPlaygroundEffector.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Demo\Scripts\DisableMessageSignWhileTeleporting.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\Detectors\ArcTeleportDetector.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\Detectors\BaseTeleportDetector.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\Detectors\LinearTeleportDetector.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\TargetGlowScaler.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\TeleportController.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\Transitions\BaseTeleportTransition.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\Transitions\LinearTeleportTransition.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\Visualizers\ArcTeleportVisualizer.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Teleport\Scripts\Visualizers\BaseTeleportVisualizer.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Tunneling\Scripts\BaseVignetteController.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Tunneling\Scripts\FadeVignetteController.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Tunneling\Scripts\FirstPersonTunnelingLocomotion.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Tunneling\Scripts\TunnelingVignette.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\Data\LevelSelectButtonData.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\Data\LevelSelectHierarchyData.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\LevelSelectResponders\BaseLevelSelectResponder.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\LevelSelectResponders\ChaseCamLevelSelectResponder.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\LevelSelectResponders\ClickMenuLevelSelectResponder.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\LevelSelectResponders\DaydreamRendererLevelSelectResponder.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\LevelSelectResponders\SwipeMenuLevelSelectResponder.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\LevelSelectResponders\TeleportLevelSelectResponder.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\LevelSelectResponders\TunnelingLevelSelectResponder.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\UI\BreadcrumbTrail\Breadcrumb.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\UI\BreadcrumbTrail\BreadcrumbBackground.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\UI\BreadcrumbTrail\BreadcrumbData.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\UI\BreadcrumbTrail\BreadcrumbTrail.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\UI\LevelSelectButton.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\UI\LevelSelectController.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\UI\LevelSelectPage.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\UI\LevelSelectPageProvider.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\Utility\CheckBuildScenes.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\Utility\HideOnMainScene.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\Utility\QuitOnCloseButton.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\Utility\SceneHelpers.cs" />
+     <Compile Include="Assets\DaydreamElements\Main\Scripts\Utility\ScreenFade.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
@@ -131,6 +224,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\GvrUnitySdkVersion.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboard.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardDelegateBase.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardIntent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardVersion.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\IKeyboardProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviderFactory.cs" />
@@ -154,23 +248,53 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrMathHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <None Include="Assets\DaydreamElements\Elements\Teleport\Shaders\BezierArc.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorSky.shader" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\ScreenSpace.shader" />
+     <None Include="Assets\DaydreamElements\Elements\Tunneling\Shaders\VignetteCage.shader" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
-     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DevCommentaryOrb.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DynamicVertColorWind.shader" />
+     <None Include="Assets\DaydreamElements\Main\Shaders\UIZTestOff.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\ParticleSolidColorAdditive.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\Stars\Stars.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+     <None Include="Assets\DaydreamElements\Elements\Tunneling\Shaders\VignetteIrisGradient.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitTransparentColor.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\VertColorDiffuse.shader" />
+     <None Include="Assets\DaydreamElements\Main\Shaders\ScreenFade.shader" />
+     <None Include="Assets\DaydreamElements\Elements\Tunneling\Shaders\VignetteIrisClearDepth.shader" />
+     <None Include="Assets\DaydreamElements\Elements\Teleport\Shaders\TeleportGlow.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\FastBlur.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\Combine.shader" />
      <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\ScrollingParticleClouds.shader" />
+     <None Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Shaders\TextShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\DaydreamElements\Main\Shaders\UnlitTransparentNoZTestColorInside.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DaydreamElementsLighting.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorBakedIllum.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
+     <None Include="Assets\DaydreamElements\Main\Shaders\UIFontZTestOff.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DynamicVertColorSimpleAO.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\Depth32.shader" />
+     <None Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Shaders\VertexColorize.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColor.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\SnowTerrain.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoStereoShader.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\SnowTerrainShadowed.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorAOTransparent.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -193,7 +317,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/pperotti/Github/udacity-vr-storyteller-revenge/Udacity's VR Storyteller's Revenge/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/pperotti/Github/udacity-vr-storyteller-revenge/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BEB23D1F-DAC2-5E1C-71AD-D2CBA9AEF93D}</ProjectGuid>
+    <ProjectGuid>{17A05ED1-9D1C-8D01-8161-237CAA9CB31C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -46,6 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DaydreamElements\Common\Demo\Scripts\Editor\Utility\CombineMeshFiltersEditor.cs" />
+     <Compile Include="Assets\DaydreamElements\Common\Scripts\Editor\Utility\AssetTreePropertyDrawer.cs" />
+     <Compile Include="Assets\DaydreamElements\Elements\Tunneling\Scripts\Editor\TunnelingVignetteEditor.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildEditor.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Editor\PagedScrollbarEditor.cs" />
@@ -59,23 +62,53 @@
      <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
      <Compile Include="Assets\GoogleVR\Editor\GvrMenu.cs" />
+     <None Include="Assets\DaydreamElements\Elements\Teleport\Shaders\BezierArc.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorSky.shader" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\ScreenSpace.shader" />
+     <None Include="Assets\DaydreamElements\Elements\Tunneling\Shaders\VignetteCage.shader" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
-     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DevCommentaryOrb.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DynamicVertColorWind.shader" />
+     <None Include="Assets\DaydreamElements\Main\Shaders\UIZTestOff.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\ParticleSolidColorAdditive.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\Stars\Stars.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+     <None Include="Assets\DaydreamElements\Elements\Tunneling\Shaders\VignetteIrisGradient.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitTransparentColor.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\VertColorDiffuse.shader" />
+     <None Include="Assets\DaydreamElements\Main\Shaders\ScreenFade.shader" />
+     <None Include="Assets\DaydreamElements\Elements\Tunneling\Shaders\VignetteIrisClearDepth.shader" />
+     <None Include="Assets\DaydreamElements\Elements\Teleport\Shaders\TeleportGlow.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\FastBlur.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\Combine.shader" />
      <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\ScrollingParticleClouds.shader" />
+     <None Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Shaders\TextShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\DaydreamElements\Main\Shaders\UnlitTransparentNoZTestColorInside.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DaydreamElementsLighting.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorBakedIllum.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
+     <None Include="Assets\DaydreamElements\Main\Shaders\UIFontZTestOff.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\DaydreamElementsLighting\DynamicVertColorSimpleAO.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\Depth32.shader" />
+     <None Include="Assets\DaydreamElements\Elements\SwipeMenu\Demo\Shaders\VertexColorize.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColor.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\SnowTerrain.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoStereoShader.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\SnowTerrainShadowed.shader" />
+     <None Include="Assets\DaydreamElements\Common\Demo\Shaders\UnlitVertColorAOTransparent.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -134,12 +167,12 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/pperotti/Github/udacity-vr-storyteller-revenge/Udacity's VR Storyteller's Revenge/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/pperotti/Github/udacity-vr-storyteller-revenge/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FBF302A3-03E1-C2CC-930D-AD74D2A3E005}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{B2A165B2-04C6-8CFE-C982-7A03821EACB0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
