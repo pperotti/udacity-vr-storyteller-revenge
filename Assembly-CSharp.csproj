@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AppLogic.cs" />
      <Compile Include="Assets\DaydreamElements\Common\Demo\Art\Effects\ESMShadows\Shadows\ShadowRendering.cs" />
      <Compile Include="Assets\DaydreamElements\Common\Demo\Art\Effects\Stars\StarRendering.cs" />
      <Compile Include="Assets\DaydreamElements\Common\Demo\DevCommentary\DeveloperCommentaryOrb.cs" />
