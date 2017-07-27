@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GoogleVR/Scripts/Audio/GvrAudio.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AppLogic.cs">
     <Files>
-      <File FileName="Assets/GoogleVR/Scripts/Audio/GvrAudioListener.cs" Line="1" Column="1" />
-      <File FileName="Assets/GoogleVR/Scripts/Audio/GvrAudioRoom.cs" Line="1" Column="1" />
-      <File FileName="Assets/GoogleVR/Scripts/Audio/GvrAudio.cs" Line="1" Column="1" />
+      <File FileName="../udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Assets/Scripts/lightUp.cs" Line="1" Column="1" />
+      <File FileName="../udacity-vr-nanodegree-projects/005-vr-applications/Assets/GameLogic.cs" Line="33" Column="18" />
+      <File FileName="Assets/AppLogic.cs" Line="7" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
