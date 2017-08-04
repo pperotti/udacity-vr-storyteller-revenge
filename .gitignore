@@ -1,5 +1,5 @@
 **/.DS_Store
 **/.vs/
-**/Assets/Plugins/
+#**/Assets/Plugins/
 **/Library/
 **/Temp/
