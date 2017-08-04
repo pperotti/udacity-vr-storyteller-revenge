@@ -17,6 +17,16 @@ All the Unity's project is hosted in this repo.
 
 You can observe that the challenge here was not only making the 360 videos to properly run in the platform but to include latest Google VR's SDK presented in 2017 GOOGLE IO. This was quite a challenge since documentation is not accurate and contains many places with outdated guidelines. 
 
+### SCENES TO REVIEW
+The scenes for the project to review are:
+- Assets/AboutScene.unity
+- Assets/CatedralScene.
+- Assets/PlazaScene.unity
+- Assets/CabildoScene.unity
+- Assets/HomeScene.unity
+
+HomeScene is the main scene to review.
+
 ### VIDEOS
 The RAW material is NOT available online. The processed videos were edited using Premiere Pro 2017. The videos URLS used inside Unity's projects are here: https://www.dropbox.com/sh/paywmyxdocrr17c/AAAyMkIU0WQCGTPrP0E5TbC3a?dl=0 
 
